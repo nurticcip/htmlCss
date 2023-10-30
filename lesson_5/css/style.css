@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header{
+    padding: 25px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.main img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#main{
+    padding: 20px 0;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: head 0.5s alternate ease-in-out ;
+}
+@keyframes head{
+    0%{
+        transform: translateY(50px);
+    }
+}
+
+.main-info h1{
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 44px;
+}
+
+.main-info p{
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 40px 0 38px 0;
+}
+
+.btn-1{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background: var(--primary, #FF6464);
+    border:  none;
+}
+.main-2{
+    background: #EDF7FA;
+    height: 430px;
+}
+
+
+.main-header{
+    display: flex;
+    justify-content: center;
+}
+
+.container-2{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-2 a{
+    color: var(--secondry, #00A8CC);
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 700px;
+    padding: 30px;
+}
+.main-2 h1{
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 30px;
+}
+.left-part{
+    padding: 20px;
+    width: 418px;
+    height: 295px;
+    background: #fff;
+}
+.right-part {
+    width: 418px;
+    height: 295px;
+    background: #fff;
+    padding: 20px;
+}
+
+.parts{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.left-part h1{
+    padding: 20px 0;
+    width: 374px;
+    height: 85px;
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 26px;
+}
+.left-part h3{
+    width: 374px;
+    height: 34px;
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.left-part p{
+    margin-top: 28px;
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.right-part h1 {
+    padding: 20px 0;
+    width: 374px;
+    height: 85px;
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+.right-part h3 {
+    width: 374px;
+    height: 34px;
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.right-part p {
+    margin-top: 28px;
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.we{
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 22px;
+    margin: 30px;
+}
+.hight{
+    display: flex;
+}
+.hight-left-part img{
+    border-radius: 6px;
+}
+.hight-right-part h1{
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.btn-2{
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background: #142850;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.flex-1{
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+}
+.flex-1 h2{
+    color: var(--light, #8695A4);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.hight-right-part p{
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 594px;
+    height: 93px;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+.middle {
+    display: flex;
+}
+.middle-right-part p {
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 594px;
+    height: 93px;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+.middle-right-part h1 {
+    color: var(--dark-color, #21243D);
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.low {
+    display: flex;
+}
+.footer{
+    width: 100%;
+    height: 182px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav a{
+    margin: 15px;
+    font-size: 30px;
+    fill: var(--dark, #21243D);
+}
+.copyright h1{
+    color: var(--dark, #21243D);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -50px;
+}

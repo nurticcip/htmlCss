@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.tabs-img img{
+    border-radius: 50%;
+    width: 150px;
+    object-fit: cover;
+    margin: 0 60px;
+}
+.tabs-img input{
+    display: none;
+}
+#all:checked ~ .html,
+#all:checked ~ .css,
+#all:checked ~ .ts,
+#all:checked ~ .js{
+    opacity: 1;
+    transition: .5s;
+}
+
+#html:checked ~ .css,
+#html:checked ~ .ts,
+#html:checked ~ .js{
+    opacity: 0.3;
+    transition: .5s;
+}
+#css:checked ~ .html,
+#css:checked ~ .ts,
+#css:checked ~ .js{
+    opacity: 0.3;
+    transition: .5s;
+}
+#ts:checked ~ .html,
+#ts:checked ~ .css,
+#ts:checked ~ .js{
+    opacity: 0.3;
+    transition: .5s;
+}
+#js:checked ~ .html,
+#js:checked ~ .css,
+#js:checked ~ .ts{
+    opacity: 0.3 ;
+    transition: .5s;
+}
+.tabs-label label{
+    background: grey;
+    margin: 0 50px;
+    padding: 20px 30px;
+    border-radius: 9px;
+}
+.tabs-label{
+    margin: 80px 0;
+}

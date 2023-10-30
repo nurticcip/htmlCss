@@ -1,0 +1,39 @@
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1{
+    font-family: sans-serif;
+    color: blue;
+}
+
+button{
+    background: red;
+    margin: 80px ;
+    padding: 20px 80px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#first{
+    transform: rotate(25deg);
+}
+
+#second {
+    transform: rotate(-25deg);
+}
+
+input::placeholder{
+    color: red;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    padding: 10px ; 
+} 

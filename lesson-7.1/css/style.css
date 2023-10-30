@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.tabs-img input{
+    display: none;
+}
+body{
+    background: #000;
+}
+.tabs-img img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 12px;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.tabs-label label{
+    background: grey;
+    color:aliceblue;
+    padding: 20px 30px;
+    margin-left: 60px;
+    border-radius: 9px;
+}
+.tabs-label {
+    margin: 80px 0;
+}
+#model-x:checked ~ .tesla,
+#model-x:checked ~.model-y,
+#model-x:checked ~.model-3,
+#model-x:checked ~.model-s{
+    display: none;
+    transition: 1s;
+}
+#model-y:checked~.model-x,
+#model-y:checked~.tesla,
+#model-y:checked~.model-3,
+#model-y:checked~.model-s {
+    display: none;
+    transition: 1s;
+}
+#model-3:checked~.model-x,
+#model-3:checked~.tesla,
+#model-3:checked~.model-y,
+#model-3:checked~.model-s {
+    display: none;
+    transition: 1s;
+}
+#model-s:checked~.model-x,
+#model-s:checked~.tesla,
+#model-s:checked~.model-y,
+#model-s:checked~.model-3 {
+    display: none;
+    transition: 1s;
+}
